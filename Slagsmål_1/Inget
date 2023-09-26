@@ -1,0 +1,34 @@
+// SLUMP
+Random generator = new Random();
+
+int slumptal =generator.Next(10);
+
+Console.WriteLine(slumptal);
+
+
+// WHILE-LOOP
+
+int tal = 100;
+while (tal > 0)
+{
+    Console.WriteLine(tal);
+    tal--;
+}
+
+Console.ReadLine();
+
+//förbätringar
+Console.WriteLine("A är starkade men B har mer hp: A eller B?");
+string karaktär = Console.ReadLine().ToLower();
+
+if(karaktär = "a"){
+    K.hp = 150;
+    K.kraft = 50;
+}
+if(karaktär = "b"){
+    K.hp = 100;
+    K.kraft = 100;
+}
+else(){
+
+}
